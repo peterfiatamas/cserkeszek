@@ -1,0 +1,107 @@
+body, html{
+    background-color: #737850;
+
+}
+/*Head*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: #737850;
+}
+.head{
+    background: #627d4d; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #627d4d 0%, #1f3b08 99%, #1f3b08 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #627d4d 0%,#1f3b08 99%,#1f3b08 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #627d4d 0%,#1f3b08 99%,#1f3b08 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#1f3b08',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.cim{
+    color: gold;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-family: times new roman;
+}
+.menuList{
+    text-decoration: none;
+    list-style: none;
+}
+.menuList li{
+    float: left;
+    width: 140px;
+    margin: 0 2px 0 0;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.menuList li:hover{
+    background: rgba(0, 85, 255, 0.4);
+}
+
+.menuList a:hover{
+    color: gold;
+}
+.menu{
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.menu:hover{
+    text-decoration: none;
+}
+.inner{
+    padding-top: 5px; 
+}
+.menuList li div a{
+    display: none;
+}
+.menuList li:hover div a{
+    display: block;
+}
+/*Body*/
+
+.content{
+    background-color: #d8d1bf;
+    margin-right: 0;
+}
+.report{
+    padding: 5px;
+    text-align: justify;
+}
+h2{
+
+}
+.coment{
+    padding: 5px;
+}
+.comentPluss{
+    display: none;
+}
+.more{
+    background-color: rgba(0, 85, 74, 0.5); 
+    width: 180px;
+    padding: 5px;
+    color: #fff;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.more:hover{
+    background: rgba(0, 85, 255, 0.4);
+}
+
+
+
+@media only screen and (max-width: 780px) {
+    .menuList li {
+        width: 100%;
+        display: block;
+        background: none;
+    }
+    .menuList li:hover{
+        background: none;
+    }  
+}
